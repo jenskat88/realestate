@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 .navbar a {
     font-size: 14px;
     font-weight: 500;
@@ -130,20 +131,23 @@ width: 100%;
     color: #aeaeae;
 }
 
-.contact__input {
-    width: 25%;
-    border: 1px solid gray;
-    border-radius: 3px;
-    padding: 1rem;
-  }
-
   .contact__button {
     margin-top: 1.875rem;
     width: 50px;
     box-shadow: 0 1px 29px rgb(0 0 0 / 40%);
+    margin-left: 200px;
   }
 
   .contact__input-div {
     position: relative;
     margin-bottom: 0.94em;
+    margin-left: 200px;
+  }
+
+  .textarea {
+    resize: none;
+  }
+
+  .custom-input {
+    max-width: 600px;
   }

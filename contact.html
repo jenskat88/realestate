@@ -52,50 +52,49 @@
       <!--contact section-->
       <section class="contact">
         <div class="contact-container mb-5">
-            
-            <div class="col-md-12 col-lg-8" style="margin-top: 150px;">
-            <h1 class="text-single">Contact Us</h1>
+            <div class="row justify-content-center"> <!-- Center the content horizontally -->
+                <div class="col-md-12 col-lg-8" style="margin-top: 150px;">
+                    <h1 class="text-single text-center custom-input">Contact Us</h1> <!-- Center the heading text -->
+                    <form action="" id="contact-form" class="d-flex flex-column align-items"> <!-- Center the form -->
+                        <div class="contact__input-div">
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Your name"
+                                class="form-control custom-input"
+                                id="contact-name"
+                            />
+                        </div>
+    
+                        <div class="contact__input-div">
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Your email"
+                                class="form-control custom-input"
+                                id="contact-email"
+                            />
+                        </div>
+    
+                        <div class="contact__input-div">
+                            <textarea
+                                name="message"
+                                placeholder="Type the message here"
+                                class="form-control custom-input textarea"
+                                id="message"
+                                id="" cols="50"
+                                rows="10"></textarea>
+                        </div>
+    
+                        <p class="contact__message text-sm" id="contact-message"></p>
+    
+                        <button type="submit" class="button contact__button">SEND</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        </div>
-        <form action="" id="contact-form" >
-            <div class="contact__input-div">
-              <input
-              type="text"
-              name="name"
-              placeholder="Your name"
-              class="contact__input"
-              id="contact-name"
-              />
-            </div>
-
-            <div class="contact__input-div">
-              <input
-              type="email"
-              name="email"
-              placeholder="Your email"
-              class="contact__input"
-              id="contact-email"
-              />
-            </div>
-
-            <div class="contact__input-div">
-              <textarea
-              name="message"
-              placeholder="Type the message here"
-              class="contact__input textarea"
-              id="message"
-              id="" cols="5"
-              rows="10"></textarea>
-            </div>
-
-            <p class="contact__message text-sm" id="contact-message">
-              
-            </p>
-
-            <button type="submit" class="button contact__button">SEND</button>
-          </form>
-
-
+    </section>
+    
         <!-- <div class="contact mt-5">
             <div class="container">
                 <div class="row">
